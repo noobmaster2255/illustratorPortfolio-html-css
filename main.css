@@ -12,6 +12,10 @@
     transition: transform 0.5s ease;
 }
 
+body {
+    flex: 1;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -192,6 +196,7 @@ nav ul {
 .section p {
     margin-top: 1em;
     color: #a3a5a7;
+    text-align: justify;
 }
 
 .section p span {
@@ -334,6 +339,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 3em;
 }
 
 form input::placeholder,
@@ -356,8 +362,8 @@ textarea {
 footer {
     bottom: 0;
     left: 0;
-    width: 100%;
-    margin-top: 3em;
+    width: auto;
+    margin-top: 0;
     color: #ffffff;
     background-color: #1d2043;
     padding: 5% 5% 5%;
@@ -447,9 +453,10 @@ footer .logo {
     margin-top: 0;
 }
 
-.gallery-section{
+.gallery-section {
     margin-top: 10vh;
 }
+
 .bar-conatiner {
     margin: 2em;
     width: 100%;
@@ -464,6 +471,7 @@ footer .logo {
     justify-content: flex-start;
     margin-top: 2em;
 }
+
 .progress {
     height: 0.5em;
     overflow: hidden;
@@ -478,13 +486,99 @@ footer .logo {
     background-image: linear-gradient(45deg, #ff351e, #d61900);
     height: 1em;
 }
+
 .character-bar {
     width: 70%;
     background-image: linear-gradient(45deg, #ff351e, #d61900);
     height: 1em;
 }
+
 .ui-bar {
     width: 60%;
     background-image: linear-gradient(45deg, #ff351e, #d61900);
     height: 1em;
+}
+
+
+/* about.html */
+.about-section {
+    margin-top: 10vh;
+}
+
+.about {
+    margin-top: 5vh;
+}
+
+.qualification-section {
+    align-items: flex-start;
+    margin-top: 0;
+}
+
+.qualification-conatiner {
+    margin-top: 10vh;
+    width: 100%;
+}
+
+.qualification-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.qualification-row {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+}
+
+.year {
+    width: 30%;
+    flex: none;
+    margin-right: 0.8em;
+}
+
+.desc::before {
+    content: '';
+    height: 100%;
+    width: 2px;
+    left: -2px;
+    position: absolute;
+    background: #E8E8E8;
+}
+
+.desc::after {
+    position: absolute;
+    content: '';
+    height: 6px;
+    width: 6px;
+    left: -4px;
+    top: 12px;
+    transform: rotate(45deg);
+    background: #ff0909;
+}
+
+.desc {
+    position: relative;
+    padding-left: 20px;
+}
+
+.desc span {
+    font-weight: 400;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.desc h4{
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+.desc h6{
+    color: #a3a5a7;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.qualification-title {
+    margin-bottom: 5vh;
 }
