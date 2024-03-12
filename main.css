@@ -260,8 +260,8 @@ nav ul {
     border-radius: 10px;
 }
 
-.img-tile img {
-    width: auto;
+.explore-wrap .img-tile img {
+    width: 100%;
     height: 100%;
     display: block;
     object-fit: cover;
@@ -403,7 +403,7 @@ footer .icon {
     margin-right: 1.5em;
 }
 
-.footer-icons .icon:hover{
+.footer-icons .icon:hover {
     background-image: none;
     background-color: #e14c3c;
 }
@@ -474,9 +474,10 @@ footer .logo {
     margin-top: 10vh;
 }
 
-.gallery-section .illustration-img{
+.gallery-section .illustration-img {
     align-self: flex-end;
 }
+
 .bar-conatiner {
     width: 100%;
     display: flex;
