@@ -6,15 +6,12 @@
     font-family: "Poppins", sans-serif;
     list-style: none;
     color: #1d2043;
-    max-width: 500px;
     font-weight: 300;
     font-size: 1em;
-    transition: transform 0.5s ease;
-    overflow: scroll;
 }
 
 body {
-    flex: 1;
+    margin: 0;
 }
 
 .header {
@@ -159,8 +156,8 @@ nav ul {
 
 .illustration-img img {
     margin-top: 1em;
-    max-width: 382px;
-    /* width: 100%; */
+    max-width: 350px;
+    width: 100%;
     height: auto;
     transition: trasform 0.3 ease;
     border-bottom: #a3a5a7 1px solid;
@@ -315,7 +312,7 @@ nav ul {
 
 .contact-form {
     margin-top: 5vh;
-    width: 382px;
+    width: 100%;
 }
 
 .submit-btn {
@@ -404,6 +401,11 @@ footer .icon {
     margin-right: 1.5em;
 }
 
+.footer-icons .icon:hover{
+    background-image: none;
+    background-color: #e14c3c;
+}
+
 footer .icon a {
     margin-top: 0.4em
 }
@@ -470,11 +472,15 @@ footer .logo {
     margin-top: 10vh;
 }
 
+.gallery-section .illustration-img{
+    align-self: flex-end;
+}
 .bar-conatiner {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-bottom: 1em;
 }
 
 .bar-item {
@@ -607,7 +613,7 @@ footer .logo {
         font-family: "Poppins", sans-serif;
         list-style: none;
         color: #1d2043;
-        max-width: 1440px;
+        /* max-width: 1440px; */
         font-weight: 300;
         font-size: 1em;
         transition: transform 0.5s ease;
