@@ -256,7 +256,7 @@ nav ul {
     height: 240px;
     overflow: hidden;
     margin-top: 1.5em;
-    box-shadow: -2px 4px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
 
